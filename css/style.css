@@ -5,3 +5,57 @@ font-family: p22-hopper-edward, sans-serif;
 font-weight: 400;
 font-style: normal;
 }
+
+/*Navbar styling*/
+
+.navalert-container {
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left:0;
+    padding-right:0;
+}
+
+.navbar{
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    background-color: white;
+}
+
+/*Footer*/
+
+.socials{
+    text-align:center;
+    position:relative;
+}
+.socials li{
+display:inline;
+}
+
+.socials i{
+    font-size:160%;
+    margin:1%;
+    padding:5%;
+    color:#777777;
+}
+
+
+
+footer {
+        
+        height: 200px;
+        width: 100%;
+        text-align: center;
+            }
+
+    p.copyright {
+        position: absolute;
+        width: 100%;
+        color: rgb(10, 10, 10);
+        line-height: 40px;
+        font-size: 150%;
+        text-align: center;
+        bottom:0;
+    }
+
