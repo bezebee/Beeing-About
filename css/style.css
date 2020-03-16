@@ -49,20 +49,18 @@ padding-top:55px;
     background-color: white;
 }
 
-/*Socials*/
-div.btn-group {
-    margin: 0 auto; 
-    text-align: center;
-    display: inline-block;
-    position:fixed;
-    top:95%;
-}
-.copyright {
-    margin-top:15px;
-    margin-right:7px;
-    
+.navbar-brand{
+font-family: p22-hopper-edward, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:300%;
 }
 
+/*Footer*/
+.copyright {
+    margin-top:35px;
+    margin-right:7px;  
+}
 
 
 
