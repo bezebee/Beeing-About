@@ -20,7 +20,7 @@ padding:25px;
 }
 .container{
 min-width:100%;
-height:110vh;
+height:150vh;
 background: url('../css/assets/road.jpg') no-repeat center center fixed;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -48,4 +48,21 @@ padding-top:55px;
     width:100%;
     background-color: white;
 }
+
+/*Socials*/
+div.btn-group {
+    margin: 0 auto; 
+    text-align: center;
+    display: inline-block;
+    position:fixed;
+    top:95%;
+}
+.copyright {
+    margin-top:15px;
+    margin-right:7px;
+    
+}
+
+
+
 
