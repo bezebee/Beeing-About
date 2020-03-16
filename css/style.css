@@ -23,8 +23,9 @@ font-style: normal;
     background-color: white;
 }
 /*Cover and ethos*/
-
-
+.cover{
+  background-image:url('../assets/road.jpg');
+}
 /*Services outline*/
 #services-mini{
   margin-top:20px;
