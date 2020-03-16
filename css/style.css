@@ -57,7 +57,7 @@ section.jumbotron.text-center{
 }
 
 section.jumbotron.text-center p{
-    margin:0;
+    margin:5px;
 }
 /*Navbar styling*/
 
@@ -118,7 +118,18 @@ iframe{
   margin:auto;
   display:inline;
   font-family:"Verdana";
-  
+}
+
+.tp-font{
+font-family: p22-hopper-edward, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:220%;
+}
+
+button.btn.btn-outline-success.btn-block {
+    padding:0;
+
 }
 
 
