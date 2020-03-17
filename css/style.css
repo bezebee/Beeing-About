@@ -63,7 +63,6 @@ div.container.about-container{
 }
 
 
-
 .jumbotron-about.text-center{
     background-color:rgb(242,242,242,.3);
     padding:15px;
@@ -108,6 +107,11 @@ section.jumbotron.text-center p{
     box-sizing: border-box;
 }
 
+.bg-light {
+    background-color: #ffffff!important;
+
+}
+
 .navbar-brand{
 font-family: p22-hopper-edward, sans-serif;
 font-weight: 400;
@@ -121,7 +125,10 @@ button.navbar-toggler.ml-auto{
 }
 
 a:hover, a:focus { text-decoration: none;}
-
+button.btn.btn-link {
+    text-decoration:none;
+    color: #444546;
+    }
 /*Footer*/
 
 footer.footer{
@@ -167,6 +174,14 @@ button.btn.btn-outline-secondary.brand-font {
     font-size:90%;
 }
 
+/*Services accordeon*/
 
+.card-header{
+    background-color: white;
+}
 
+.div.card.text-center{
+    padding-top:15px;
+    padding-bottom:15px;
+}
 
