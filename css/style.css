@@ -86,9 +86,12 @@ font-style: normal;
 font-size:300%;
 }
 
+
 button.navbar-toggler.ml-auto{
     margin-right:15px;
 }
+
+a:hover, a:focus { text-decoration: none;}
 
 /*Footer*/
 
