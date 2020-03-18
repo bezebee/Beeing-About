@@ -178,6 +178,7 @@ button.btn.btn-outline-secondary.brand-font {
 
 .card-header{
     background-color: white;
+    border-bottom:0;
 }
 
 .div.card.text-center{
