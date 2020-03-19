@@ -157,6 +157,7 @@ iframe{
   margin:auto;
   display:inline;
   font-family:"Verdana";
+  
 }
 
 .tp-font{
@@ -177,9 +178,10 @@ button.btn.btn-outline-secondary.brand-font {
 /*Services accordeon*/
 
 .card-header{
-    background-color: white;
+    background: url('../css/assets/old-ireland-frag.jpg') no-repeat center center fixed;
     border-bottom:0;
 }
+
 
 .div.card.text-center{
     padding-top:15px;
@@ -189,6 +191,14 @@ button.btn.btn-outline-secondary.brand-font {
 .price{
     border:1px solid rgba(65, 62, 62, 0.5);
     background-color: rgb(170, 250, 65);
+    
     margin:2px;
     padding:3px;
+    
+}
+
+button.btn.btn-link{
+    border:1px solid rgba(65, 62, 62, 0.5);
+  background-color: rgb(247, 250, 244, 0.8);
+  margin-top:10px;
 }
