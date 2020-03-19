@@ -10,6 +10,7 @@ html,body
     margin:0;
     padding-top: 40px;
     overflow-x: hidden; 
+    overflow-y:hidden;
 }
 
 .brand-font {
@@ -183,17 +184,25 @@ button.btn.btn-outline-secondary.brand-font {
 }
 
 
-.div.card.text-center{
+/*.div.card.text-center{
     padding-top:15px;
     padding-bottom:15px;
-}
+}*/
 
 .price{
     border:1px solid rgba(65, 62, 62, 0.5);
-    background-color: rgb(170, 250, 65);
-    
+    background-color: rgba(147, 148, 145, 0.37);
     margin:2px;
     padding:3px;
+    border-radius:4px;
+    
+}
+
+
+
+.price:hover{
+    background-color:rgba(60,60,60,.6);
+    color:rgb(77, 75, 75);
     
 }
 
