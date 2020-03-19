@@ -2,7 +2,6 @@
 
 body{
   font-family:'Montserrat', sans-serif;
-  
 }
 
 html,body
@@ -30,8 +29,8 @@ padding:0px;
 
 .container{
 min-width:100%;
-height:120vh;
-background: url('../css/assets/old-ireland-frag.jpg') no-repeat center center fixed;
+height:100vh;
+background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center center fixed;
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
@@ -102,7 +101,6 @@ section.jumbotron.text-center p{
     margin-bottom:0;
     border:0;
     width:100%;
-    background: url('../css/assets/old-ireland.jpg') no-repeat center center fixed;
     display:flex;
     box-sizing: border-box;
 }
@@ -131,10 +129,10 @@ button.btn.btn-link {
     }
 /*Footer*/
 
-footer.footer{
+.footer{
     width:100%;
-
 }
+
 .copyright {
     margin-top:16px;
     margin-right:0px;  
@@ -178,8 +176,10 @@ button.btn.btn-outline-secondary.brand-font {
 /*Services accordeon*/
 
 .card-header{
-    background: url('../css/assets/old-ireland-frag.jpg') no-repeat center center fixed;
-    border-bottom:0;
+    background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center center fixed;
+    /*resizing background image*/
+    background-size: 2000px;
+    height: auto;
 }
 
 
@@ -202,3 +202,75 @@ button.btn.btn-link{
   background-color: rgb(247, 250, 244, 0.8);
   margin-top:10px;
 }
+
+/*form*/
+
+.form-section{
+    clear:left;
+    background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    height:900px;
+}
+
+.signup-form{
+    margin-top:150px;
+    color:#fff;
+    background-color: rgba(60,60,60,.6);
+    max-width:600px;
+    position:absolute;
+    left:10%;
+    padding:30px;}
+
+.signup-form h2{
+    color:#fafafa;
+    margin-bottom:20px;
+    
+}
+
+.text-input{
+    background-color:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin:5px 0 20px 0;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+
+.text-input:hover{
+    border-color:#f16c6b;
+}
+
+.join-button{
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:#f16c6b;
+    color:#fafafa;
+    display:block;
+}
+
+.join-button-color:hover{
+    background-color:#fafafa;
+    color:#f16c6b;
+}
+
+label{
+    padding-left:20px;
+}
+
+@media screen and (max-width: 640px) {
+    .signup-form{
+        
+        margin-right:auto;
+        margin-left:auto;
+       
+
+    }
+}
+
+
+
