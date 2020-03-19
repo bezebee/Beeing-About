@@ -219,7 +219,7 @@ button.btn.btn-link{
 /*form*/
 
 .form-section{
-    clear:left;
+    
     background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center center fixed;
     background-size: cover;
     background-position: center;
@@ -278,8 +278,9 @@ label{
 @media screen and (max-width: 640px) {
     .signup-form{
         
-        margin-right:auto;
-        margin-left:auto;
+        
+        display:inline-block;
+        width:300px;
        
 
     }
