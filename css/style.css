@@ -36,6 +36,7 @@ font-weight: 400;
 font-style: normal;
 font-size:200%; 
 padding:0px;
+text-shadow: 1px 2px 5px #ffffff;
 }
 
 /*Setting the background to container*/
@@ -57,9 +58,11 @@ padding-top:50px;
 /*Formatting of the small Service cards on homepage*/
 div.col-sm{
     padding-top:18px;
-    border:1px solid rgb(126, 126, 126, .5);
     margin:2px;
-    background-color:rgb(242,242,242,.9)
+    background-color:rgba(65, 62, 62, 0.767);
+    color:#ffffff;
+    border-radius:4px;
+
 }
 
 /*The logo here is slightly different in size*/
@@ -81,6 +84,8 @@ div.container.about-container{
 .jumbotron-about.text-center{
     background-color:rgba(65, 62, 62, 0.767);
     padding:15px;
+    text-shadow: 2px 2px 5px #ffffff;
+    border-radius:4px;
     
 }
 
@@ -91,10 +96,12 @@ div.row{
 
 .jumbotron{
 background:none;
+
 }
 
 section.jumbotron.text-center{
     padding:8px 16px 8px 16px;
+  
     
    
 }
@@ -199,8 +206,8 @@ button.btn.btn-outline-secondary.brand-font {
 
 /*Pseudo button created to accompany collapsible element*/
 .price{
-    border:1px solid rgba(65, 62, 62, 0.5);
-    background-color: rgba(147, 148, 145, 0.37);
+    border:1px solid rgba(254, 255, 251);
+    color:#ffffff;
     margin:2px;
     padding:3px;
     border-radius:4px;
@@ -209,15 +216,16 @@ button.btn.btn-outline-secondary.brand-font {
 
 /*Highlight effect added onto the pseudo-button*/
 .price:hover{
-    background-color:rgba(60,60,60,.6);
-    color:rgb(77, 75, 75);
+    background-color:rgba(254, 255, 251);
+    color:rgba(65, 62, 62);
+    box-shadow: 1px 2px 5px rgba(254, 255, 251);
     
 }
 /*Background for collapsible heading made more visible*/
-button.btn.btn-link{
-    border:1px solid rgba(65, 62, 62, 0.5);
-  background-color: rgb(247, 250, 244, 0.8);
+button.btn.btn-link{    
+background-color:rgba(65, 62, 62, 0.7);
   margin-top:10px;
+  color:#ffffff;
 }
 
 
@@ -237,12 +245,20 @@ button.btn.btn-link{
     max-width:600px;
     position:absolute;
     left:10%;
-    padding:30px;}
+    padding:30px;
+    border-radius:4px;}
 
 .contact-form h2{
     color:#fafafa;
-    margin-bottom:20px;
-    
+    margin-bottom:20px;    
+}
+
+.question{
+    font-family: p22-hopper-edward, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:300%;
+text-shadow: 2px 2px 5px #ffffff;
 }
 
 .text-input{
@@ -263,7 +279,7 @@ button.btn.btn-link{
 /*Formatting the submit button*/
 .join-button{
     margin-top:20px;
-    border-radius:2px;
+    border-radius:4px;
     padding:15px 32px 15px 32px;
     text-align:center;
     font-size:100%;
@@ -278,6 +294,7 @@ button.btn.btn-link{
     color:#383838;
     box-shadow: 1px 2px #3b3b3b;
     text-shadow: 2px 2px 5px #3b3b3b;
+    border-radius:4px;
 }
 
 
