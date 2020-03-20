@@ -7,6 +7,7 @@ body{
 html,body
 {
     width: 100%;
+    min-height: 100%;
     margin:0;
     padding-top: 40px;
     overflow-x: hidden; 
@@ -34,6 +35,7 @@ padding:0px;
 min-width:100%;
 height:100vh;
 background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center center fixed;
+
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
@@ -41,7 +43,7 @@ background-size:cover;
 display:flex;
 align-items:center;
 justify-content:center;
-padding-top:55px;
+padding-top:150px;
 
 }
 
@@ -133,6 +135,7 @@ button.btn.btn-link {
 /*Footer*/
 
 .footer{
+    position:relative;
     width:100%;
 }
 
