@@ -305,10 +305,19 @@ label{
 .container.services-container {
     padding-top: 15px;
     height:150vh;
+    margin-top:-80vw;
 
 }
 p.hide{
     display:none;
+}
+
+.contact-us{
+    margin-top:-20vw;   
+}
+
+.jumbotron-about.text-center{
+    margin-top:-130vw;  
 }
 
 }
