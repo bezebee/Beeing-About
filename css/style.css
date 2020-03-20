@@ -267,16 +267,17 @@ button.btn.btn-link{
     padding:15px 32px 15px 32px;
     text-align:center;
     font-size:100%;
-    background-color:#abe68f;
+    background-color:#ffffff;
     color:#383838;
     display:block;
 }
 
 /*Minor animation on hover over the submit button*/
 .join-button:hover{
-    background-color:#abe68f;
+    background-color:#ffffff;
     color:#383838;
-    box-shadow: 1px 2px #98f390;
+    box-shadow: 1px 2px #3b3b3b;
+    text-shadow: 2px 2px 5px #3b3b3b;
 }
 
 
@@ -296,7 +297,7 @@ label{
         display:inline-block;
         width:300px;
         margin-right:auto;
-        
+        margin-left:auto;
         position:relative;
     }
 
