@@ -297,6 +297,10 @@ p.hide{
     display:none;
 }
 
+.col-sm{
+    padding-bottom:18px;
+}
+
 }
 
 
