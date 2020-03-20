@@ -282,17 +282,21 @@ label{
 /*Work in progress on responsiveness of the site*/
 @media screen and (max-width: 640px) {
  /*Attempt to center the contact form*/
-    .contact-form{ 
+.contact-form{ 
         display:inline-block;
         width:300px;
     }
 
 /*Responsiveness of the  mini-services part on homepage*/
-    div.container.services-container {
+.container.services-container {
     padding-top: 15px;
-    height:100vh;
+    height:150vh;
 
 }
+p.hide{
+    display:none;
+}
+
 }
 
 
