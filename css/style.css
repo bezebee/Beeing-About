@@ -108,6 +108,7 @@ section.jumbotron.text-center p{
     width:100%;
     display:flex;
     box-sizing: border-box;
+    z-index:1;
 }
 
 .bg-light {
@@ -285,18 +286,13 @@ label{
         display:inline-block;
         width:300px;
     }
-    .col-sm{
-        padding:5px;
-        margin-right:auto;
-        margin-left:auto;
-        display:inline-block;
-    }
+
 
     div.container.services-container {
     padding-top: 15px;
-    height:150vh;
+    height:100vh;
     
 }
-
+}
 
 
