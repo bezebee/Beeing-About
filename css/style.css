@@ -37,7 +37,7 @@ padding:0px;
 /*Setting the background to container*/
 .container{
 min-width:100%;
-height:100vh;
+height:80vh;
 background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center center fixed;
 
 -webkit-background-size:cover;
@@ -48,6 +48,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 padding-top:150px;
+
 }
 
 /*Formatting of the small Service cards on homepage*/
@@ -280,11 +281,19 @@ label{
 }
 
 /*Work in progress on responsiveness of the site*/
+@media screen and (max-width:400px){
+    .col-sm{
+    padding-bottom:18px;
+}
+}
 @media screen and (max-width: 640px) {
  /*Attempt to center the contact form*/
 .contact-form{ 
         display:inline-block;
         width:300px;
+        margin-right:auto;
+        
+        position:relative;
     }
 
 /*Responsiveness of the  mini-services part on homepage*/
@@ -295,10 +304,6 @@ label{
 }
 p.hide{
     display:none;
-}
-
-.col-sm{
-    padding-bottom:18px;
 }
 
 }
