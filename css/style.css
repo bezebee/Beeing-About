@@ -319,6 +319,9 @@ label{
         margin-left:auto;
         position:relative;
     }
+.navbar{
+    max-height:100%;
+}
 
 /*Responsiveness of the  mini-services part on homepage*/
 .container.services-container {
