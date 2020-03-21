@@ -201,7 +201,9 @@ button.btn.btn-outline-secondary.brand-font {
     /*resizing background image*/
     background-size: 2000px;
     height: auto;
+    margin-top:0;
 }
+
 
 
 /*Pseudo button created to accompany collapsible element*/
