@@ -228,9 +228,8 @@ button.btn.btn-link{
 background-color:rgba(65, 62, 62, 0.7);
   margin-top:10px;
   color:#ffffff;
+  z-index:1;
 }
-
-
 
 /*form*/
 .contact-us{
