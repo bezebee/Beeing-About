@@ -165,6 +165,10 @@ button.btn.btn-link {
     margin-right:0px;  
 }
 
+button.btn.btn-secondary{
+    background:rgba(65, 62, 62,0.8);
+}
+
 /*Gallery*/
 
 
