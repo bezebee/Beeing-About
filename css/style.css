@@ -73,6 +73,7 @@ div.col-sm.ireland{
 
 div.container.services-container{
     padding-top:20px;
+    margin:0;
     height:100vh;  
 }
 
@@ -348,12 +349,12 @@ label{
 /*Responsiveness of the  mini-services part on homepage*/
 
 .jumbotron-about.text-center{
-    margin-top:-30vw;  
+    margin-top:10vw;  
 }
 .container.services-container {
     padding-top: 15px;
-    height:150vh;
-    margin-top:-30vw;
+    height:180vh;
+    margin-top:10vw;
 
 }
 
