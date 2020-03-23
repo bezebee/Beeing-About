@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
 
-body{
-    padding:0;
-    margin:0;
-}
+
 body{
   font-family:'Montserrat', sans-serif;
   
@@ -14,7 +11,6 @@ html,body
     width: 100%;
     min-height: 100%;
     margin:0;
-    padding-top: 80px;
     overflow-x: hidden; 
 }
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
@@ -27,28 +23,15 @@ html,body
 font-family: p22-hopper-edward, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size:250%;
+font-size:110%;
 }
 
-/*Additional decoration to services*/
-.hopper {
-font-family: p22-hopper-edward, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:200%; 
-padding:0px;
-text-shadow: 1px 2px 5px #ffffff;
-}
 
 /*Setting the background to container*/
 .container{
 min-width:100%;
 height:120vh;
-background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center fixed;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
+background: #ffffff;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -158,8 +141,9 @@ button.btn.btn-link {
 /*Footer*/
 
 .footer{
-    position:relative;
+    position:static;
     width:100%;
+    z-index:-9999;
 }
 
 .copyright {
@@ -337,7 +321,7 @@ label{
       .jumbotron-about.text-center {
         margin-top:10px;
         padding:20px;
-        font-size:20px;
+        font-size:5px;
       }
 
      .footer{
@@ -345,49 +329,6 @@ label{
       }
           
       }
-@media screen and (max-width:400px){
-    .col-sm{
-    padding-bottom:18px;
-}
-}
-@media screen and (max-width: 640px) {
-
-.contact-form{ 
-        display:inline-block;
-        width:300px;
-        margin-right:auto;
-        margin-left:auto;
-        position:relative;
-    }
-.navbar{
-    max-height:100%;
-}
-
-/*Responsiveness of the  mini-services part on homepage*/
-
-div.container.about-container{
-    padding:0;   
-}
-body{
-    padding:0;}
-
-.jumbotron-about.text-center{
-    margin-top:10vw;  
-}
-.container.services-container {
-    padding-top: 15px;
-    height:180vh;
-    margin-top:10vw;
-
-}
-
-p.hide{
-    display:none;
-}
-
-.contact-us{
-    margin-top:-20vw;   
-}
 
 
 
