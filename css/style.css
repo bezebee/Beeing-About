@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
 
-
 body{
-  font-family:'Montserrat', sans-serif; 
-  display: flex; justify-content: center; align-items: center; height: 100%;
+    padding:0;
+    margin:0;
+}
+body{
+  font-family:'Montserrat', sans-serif;
+  
 }
 
-html,body{
+html,body
+{
     width: 100%;
     min-height: 100%;
     margin:0;
-    padding-top: 40px;
+    padding-top: 80px;
     overflow-x: hidden; 
 }
-
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
 ::-webkit-scrollbar {
     display: none;
@@ -42,37 +45,42 @@ text-shadow: 1px 2px 5px #ffffff;
 min-width:100%;
 height:120vh;
 background: url('../css/assets/old-ireland-fragm.jpg') no-repeat center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
 background-size:cover;
+display:flex;
 align-items:center;
 justify-content:center;
 padding-top:50px;
+
 }
 
 /*Formatting of the small Service cards on homepage*/
-/*div.col-sm{
+div.col-sm{
     padding-top:18px;
     margin:2px;
-    position:relative;
     background-color:rgba(65, 62, 62, 0.767);
     color:#ffffff;
     border-radius:4px;
+
 }
 
 /*The logo here is slightly different in size*/
-/*div.col-sm.ireland{
+div.col-sm.ireland{
     padding:5px;
 }
 
 div.container.services-container{
     padding-top:20px;
-    margin-top:30vw;
+    margin:0;
     height:100vh;  
 }
 
 div.container.about-container{
     color:white;
    margin-top:0;
-}*/
+}
 
 /*Gray background to the Ethos jumbotron*/
 .jumbotron-about.text-center{
@@ -94,11 +102,16 @@ background:none;
 }
 
 section.jumbotron.text-center{
-    padding:8px 16px 8px 16px;  
+    padding:8px 16px 8px 16px;
+  
+    
+   
 }
 
 section.jumbotron.text-center p{
-    margin:5px;   
+    margin:5px;
+    
+    
 }
 /*Navbar styling*/
 
@@ -145,9 +158,8 @@ button.btn.btn-link {
 /*Footer*/
 
 .footer{
-    position:fixed;
+    position:relative;
     width:100%;
-    max-height:100%;
 }
 
 .copyright {
@@ -316,13 +328,30 @@ label{
       }
           
       }
+
+@media screen and (max-width:768px)
+.navbar{
+          font-size:50%;
+      }
+
+      .jumbotron-about.text-center {
+        margin-top:10px;
+        padding:20px;
+        font-size:20px;
+      }
+
+     .footer{
+      font-size:20px;
+      }
+          
+      }
 @media screen and (max-width:400px){
     .col-sm{
     padding-bottom:18px;
 }
 }
 @media screen and (max-width: 640px) {
- /*Attempt to center the contact form*/
+
 .contact-form{ 
         display:inline-block;
         width:300px;
@@ -336,13 +365,19 @@ label{
 
 /*Responsiveness of the  mini-services part on homepage*/
 
+div.container.about-container{
+    padding:0;   
+}
+body{
+    padding:0;}
+
 .jumbotron-about.text-center{
-    margin-top:80vw;  
+    margin-top:10vw;  
 }
 .container.services-container {
-    margin-top: 1600px;
-    min-height: 250vw;
-    
+    padding-top: 15px;
+    height:180vh;
+    margin-top:10vw;
 
 }
 
@@ -357,5 +392,3 @@ p.hide{
 
 
 }
-
-
