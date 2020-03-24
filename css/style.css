@@ -11,6 +11,7 @@ html,body
     width: 100%;
     min-height: 100%;
     margin:0;
+    scroll-behavior: smooth;
     overflow-x: hidden; 
 }
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
@@ -36,7 +37,12 @@ display:flex;
 align-items:center;
 justify-content:center;
 padding-top:50px;
+}
 
+.container-fluid{
+    background-size: contain;
+    width: 100%;
+    height: 270px;
 }
 
 /*Formatting of the small Service cards on homepage*/
@@ -141,7 +147,7 @@ button.btn.btn-link {
 /*Footer*/
 
 .footer{
-    position:static;
+    position:absolute;
     width:100%;
     z-index:-9999;
 }
@@ -294,9 +300,64 @@ label{
     padding-left:20px;
 }
 
-/*Work in progress on responsiveness of the site*/
+/* iPhone 5 */
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2) {
 
-@media (min-width: 2000px) {
+
+p{
+font-size:11px;
+}   
+}
+/*Galaxy S5*/
+@media screen and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3){
+p{
+font-size:11px;
+} 
+.container.about-container{
+    padding-top:0;   
+}
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+.navbar{
+          font-size:50%;}
+.jumbotron-about.text-center {
+        margin-top:10px;
+        padding:20px;
+        font-size:5px;}
+.footer{
+      font-size:20px;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+.contact-form{
+    font-size: 50px;
+} 
+.navbar{
+          font-size:250%;}
+.jumbotron-about.text-center {
+        margin-top:200px;
+        padding:50px;
+        font-size:40px;}
+.footer{
+      font-size:40px;}
+}
+
+
+
+
+/*@media (min-width: 2000px) {
 
       .navbar{
           font-size:250%;
@@ -306,7 +367,6 @@ label{
         padding:50px;
         font-size:40px;
       }
-
      .footer{
       font-size:40px;
       }
@@ -332,4 +392,4 @@ label{
 
 
 
-}
+}*/
