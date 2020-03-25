@@ -3,7 +3,7 @@
 
 body{
   font-family:'Montserrat', sans-serif;
-  
+ 
 }
 
 html,body
@@ -11,7 +11,7 @@ html,body
     width: 100%;
     min-height: 100%;
     margin:0;
-    scroll-behavior: smooth;
+    
     overflow-x: hidden; 
 }
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
@@ -36,7 +36,7 @@ background: #ffffff;
 display:flex;
 align-items:center;
 justify-content:center;
-padding-top:50px;
+
 }
 
 .container-fluid{
@@ -60,15 +60,11 @@ div.col-sm.ireland{
     padding:5px;
 }
 
-div.container.services-container{
-    padding-top:20px;
-    margin:0;
-    height:100vh;  
-}
 
 div.container.about-container{
     color:white;
    margin-top:0;
+   
 }
 
 /*Gray background to the Ethos jumbotron*/
@@ -77,6 +73,7 @@ div.container.about-container{
     padding:15px;
     text-shadow: 2px 2px 5px #ffffff;
     border-radius:4px;
+    width:80%;
     
 }
 
@@ -91,17 +88,16 @@ background:none;
 }
 
 section.jumbotron.text-center{
-    padding:8px 16px 8px 16px;
-  
-    
+    padding:8px 16px 8px 16px;  
    
 }
 
 section.jumbotron.text-center p{
     margin:5px;
-    
-    
+        
 }
+
+
 /*Navbar styling*/
 
 .navalert-container {
@@ -110,6 +106,7 @@ section.jumbotron.text-center p{
     left:0;
     padding-left:0;
     padding-right:0;
+    max-height:80px;
     z-index:1;
 }
 
@@ -200,6 +197,9 @@ button.btn.btn-outline-secondary.brand-font {
     height: auto;
     margin-top:0;
 }
+#headingOne{
+    padding-top:100px;
+}
 
 
 
@@ -210,6 +210,7 @@ button.btn.btn-outline-secondary.brand-font {
     margin:2px;
     padding:3px;
     border-radius:4px;
+    
     
 }
 
@@ -225,7 +226,7 @@ button.btn.btn-link{
 background-color:rgba(65, 62, 62, 0.7);
   margin-top:10px;
   color:#ffffff;
-  z-index:1;
+ 
 }
 
 /*form*/
@@ -301,6 +302,7 @@ label{
 }
 
 /* iPhone 5 */
+/*
 @media (device-height : 568px) 
    and (device-width : 320px) 
    and (-webkit-min-device-pixel-ratio: 2) {
@@ -311,7 +313,7 @@ font-size:11px;
 }   
 }
 /*Galaxy S5*/
-@media screen and (device-width: 360px) 
+/*@media screen and (device-width: 360px) 
 and (device-height: 640px) 
 and (-webkit-device-pixel-ratio: 3){
 p{
@@ -325,7 +327,7 @@ font-size:11px;
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
+/*@media (min-width: @screen-sm-min) { 
 .navbar{
           font-size:50%;}
 .jumbotron-about.text-center {
@@ -337,13 +339,11 @@ font-size:11px;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {  }
+/*@media (min-width: @screen-md-min) {  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-.contact-form{
-    font-size: 50px;
-} 
+/*@media (min-width: @screen-lg-min) {
+
 .navbar{
           font-size:250%;}
 .jumbotron-about.text-center {
