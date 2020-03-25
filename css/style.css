@@ -30,8 +30,8 @@ font-size:110%;
 
 /*Setting the background to container*/
 .container{
-min-width:100%;
-height:120vh;
+max-width:100%;
+height:100vh;
 background: #ffffff;
 display:flex;
 align-items:center;
@@ -147,6 +147,8 @@ button.btn.btn-link {
     position:absolute;
     width:100%;
     z-index:-9999;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .copyright {
@@ -236,13 +238,13 @@ background-color:rgba(65, 62, 62, 0.7);
 }
 
 .contact-form{
-    margin-top:150px;
+    margin-top:90px;
     color:#fff;
     background-color: rgba(60,60,60,.6);
     max-width:600px;
     position:absolute;
-    min-width: 100%;
-    padding:30px;
+    right:35%;
+    padding:15px;
     border-radius:4px;
     margin-left:auto;
     margin-right:auto;}
