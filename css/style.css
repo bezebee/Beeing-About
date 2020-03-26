@@ -14,6 +14,10 @@ html,body
     
     overflow-x: hidden; 
 }
+
+*{
+    box-sizing:border-box;
+}
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
 ::-webkit-scrollbar {
     display: none;
@@ -27,81 +31,16 @@ font-style: normal;
 font-size:110%;
 }
 
-
-/*Setting the background to container*/
-.container{
-max-width:100%;
-height:100vh;
-background: #ffffff;
-display:flex;
-align-items:center;
-justify-content:center;
-
+.about_beeing-about p{
+    max-width: 100%;
+    height: auto;
+    padding: 8%;   
 }
-
-.container-fluid{
-    background-size: contain;
-    width: 100%;
-    height: 270px;
-}
-
-/*Formatting of the small Service cards on homepage*/
-div.col-sm{
-    padding-top:18px;
-    margin:2px;
-    background-color:rgba(65, 62, 62, 0.767);
-    color:#ffffff;
-    border-radius:4px;
-
-}
-
-/*The logo here is slightly different in size*/
-div.col-sm.ireland{
-    padding:5px;
-}
-
-
-div.container.about-container{
-    color:white;
-   margin-top:0;
-   
-}
-
-/*Gray background to the Ethos jumbotron*/
-.jumbotron-about.text-center{
-    background-color:rgba(65, 62, 62, 0.767);
-    padding:15px;
-    text-shadow: 2px 2px 5px #ffffff;
-    border-radius:4px;
-    width:80%;
-    
-}
-
-div.row{
-    padding-top:0px;
-    
-}
-
-.jumbotron{
-background:none;
-
-}
-
-section.jumbotron.text-center{
-    padding:8px 16px 8px 16px;  
-   
-}
-
-section.jumbotron.text-center p{
-    margin:5px;
-        
-}
-
 
 /*Navbar styling*/
 
 .navalert-container {
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     padding-left:0;
@@ -136,12 +75,43 @@ button.navbar-toggler.ml-auto{
     margin-right:8px;
 }
 
+.short-line{
+    width:50%;
+    align-self: auto;
+}
+.circle-cover-bg{
+    width:auto;
+    text-align:center;
+    padding:20px;    
+}
+
+img { 
+width: 200px; 
+height: 200px; 
+border-radius:50%;
+ }
+
+.what-our-clients-say,p {
+    padding-left:4%;
+    padding-right:4%;
+}
 a:hover, a:focus { text-decoration: none;}
 button.btn.btn-link {
     text-decoration:none;
     color: #444546;
     }
-/*Footer*/
+/*Testimonials*/
+
+
+/*#girl{
+ width: 300px;
+  height: 300px;
+  background-image: url("css/assets/girl.jpg") no repeat center center;
+  border-radius: 50%;
+  background-size: cover;
+}*/
+
+
 
 .footer{
     position:absolute;
@@ -172,9 +142,7 @@ iframe{
   padding-right:0; 
 }
 
-.row{
-  padding-top:50px;
-}
+
 
 /*Decorative font styling of the Travel Plan button*/
 
@@ -302,6 +270,40 @@ text-shadow: 2px 2px 5px #ffffff;
 label{
     padding-left:20px;
 }
+@media (min-width: 1920px) {
+
+    .navbar{
+          font-size:100%;
+    }
+
+    .about_beeing-about p {
+    max-width: 100%;
+    height: auto;
+    padding: 4%;
+    font-size:130%;
+    }
+}
+@media (min-width: 2000px) {
+body{
+    padding-top:150px;
+}
+      .navbar{
+          font-size:250%;
+      }
+      .nav-link{
+          padding-left:10px;
+      }
+
+      .about_beeing-about p {
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+    font-size:250%;
+    }
+    .brand-font{
+        font-size:250%!important;
+    }
+}
 
 /* iPhone 5 */
 /*
@@ -348,27 +350,23 @@ font-size:11px;
 
 .navbar{
           font-size:250%;}
-.jumbotron-about.text-center {
-        margin-top:200px;
-        padding:50px;
-        font-size:40px;}
-.footer{
-      font-size:40px;}
-}
 
 
 
 
-/*@media (min-width: 2000px) {
+
+@media (min-width: 2000px) {
 
       .navbar{
           font-size:250%;
       }
-      .jumbotron-about.text-center {
-        margin-top:200px;
-        padding:50px;
-        font-size:40px;
-      }
+                
+.about_beeing-about p{
+    max-width: 100%;
+    height: auto;
+    padding: 8%;
+    font-size:400%;
+}
      .footer{
       font-size:40px;
       }
@@ -395,3 +393,5 @@ font-size:11px;
 
 
 }*/
+
+
