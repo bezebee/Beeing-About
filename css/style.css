@@ -3,24 +3,32 @@
 
 body{
   font-family:'Montserrat', sans-serif;
- 
 }
 
 html,body
 {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     margin:0;
-    
     overflow-x: hidden; 
 }
 
 *{
+    padding:0;
+    margin:0;
     box-sizing:border-box;
 }
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
 ::-webkit-scrollbar {
     display: none;
+}
+
+.active>.nav-link{
+text-shadow: 1px 2px 5px #abe68f;
+}
+
+.navbar-brand:hover{
+    text-shadow: 1px 2px 5px #abe68f;
 }
 
 /*Decorative font to match logo on videos*/
@@ -75,9 +83,17 @@ button.navbar-toggler.ml-auto{
     margin-right:8px;
 }
 
+.row{
+    padding-top:45px;
+}
+
+
+
 .short-line{
     width:50%;
-    align-self: auto;
+    margin:auto;
+    padding-bottom:5%;
+    margin-top:5%;
 }
 .circle-cover-bg{
     width:auto;
@@ -100,19 +116,6 @@ button.btn.btn-link {
     text-decoration:none;
     color: #444546;
     }
-/*Testimonials*/
-
-
-/*#girl{
- width: 300px;
-  height: 300px;
-  background-image: url("css/assets/girl.jpg") no repeat center center;
-  border-radius: 50%;
-  background-size: cover;
-}*/
-
-
-
 .footer{
     position:absolute;
     width:100%;
@@ -146,19 +149,19 @@ iframe{
 
 /*Decorative font styling of the Travel Plan button*/
 
-.tp-font{
-font-family: p22-hopper-edward, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:220%;
+.btn-block{
+    white-space: normal;
 }
 
-button.btn.btn-outline-secondary.brand-font {
+button.btn.btn-outline-success.brand-font {
     padding:0;
+    
 }
-.responsive-width{
-    font-size:90%;
+
+.btn{
+    margin-top:1%;
 }
+
 
 /*Services accordeon*/
 
@@ -166,9 +169,6 @@ button.btn.btn-outline-secondary.brand-font {
 
     height: auto;
     margin-top:0;
-}
-#headingOne{
-    padding-top:100px;
 }
 
 
@@ -199,78 +199,20 @@ background-color:rgba(65, 62, 62, 0.7);
  
 }
 
-/*form*/
-.contact-us{
-    background: #ffffff;
-    height:900px;
-}
-
-.contact-form{
-    margin-top:90px;
-    color:#fff;
-    background-color: rgba(60,60,60,.6);
-    max-width:600px;
-    position:absolute;
-    right:35%;
-    padding:15px;
-    border-radius:4px;
-    margin-left:auto;
-    margin-right:auto;}
-
-.contact-form h2{
-    color:#fafafa;
-    margin-bottom:20px;    
-}
-
-.question{
-    font-family: p22-hopper-edward, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:300%;
-text-shadow: 2px 2px 5px #ffffff;
-}
-
-.text-input{
-    background-color:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border:1px solid #fafafa;
-    border-radius:2px;
-}
 
 /*Highlighting the text boxes*/
-.text-input:hover{
-    border-color:#abe68f;
+.form-control:hover{
+border:solid 1.5px #abe68f;;
 }
-
-/*Formatting the submit button*/
-.join-button{
-    margin-top:20px;
-    border-radius:4px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#ffffff;
-    color:#383838;
-    display:block;
-}
-
 /*Minor animation on hover over the submit button*/
-.join-button:hover{
-    background-color:#ffffff;
-    color:#383838;
-    box-shadow: 1px 2px #3b3b3b;
-    text-shadow: 2px 2px 5px #3b3b3b;
+.btn:hover{
+   
+    box-shadow: 2px 2px 5px #3b3b3b;
     border-radius:4px;
 }
 
 
-label{
-    padding-left:20px;
-}
-@media (min-width: 1920px) {
+@media (min-width: 1400px) {
 
     .navbar{
           font-size:100%;
@@ -279,7 +221,7 @@ label{
     .about_beeing-about p {
     max-width: 100%;
     height: auto;
-    padding: 4%;
+    padding: 15%;
     font-size:130%;
     }
 }
@@ -297,7 +239,7 @@ body{
       .about_beeing-about p {
     max-width: 100%;
     height: auto;
-    padding: 2%;
+    padding: 15%;
     font-size:250%;
     }
     .brand-font{
@@ -305,93 +247,5 @@ body{
     }
 }
 
-/* iPhone 5 */
-/*
-@media (device-height : 568px) 
-   and (device-width : 320px) 
-   and (-webkit-min-device-pixel-ratio: 2) {
-
-
-p{
-font-size:11px;
-}   
-}
-/*Galaxy S5*/
-/*@media screen and (device-width: 360px) 
-and (device-height: 640px) 
-and (-webkit-device-pixel-ratio: 3){
-p{
-font-size:11px;
-} 
-.container.about-container{
-    padding-top:0;   
-}
-
-}
-
-
-/* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) { 
-.navbar{
-          font-size:50%;}
-.jumbotron-about.text-center {
-        margin-top:10px;
-        padding:20px;
-        font-size:5px;}
-.footer{
-      font-size:20px;}
-}
-
-/* Medium devices (desktops, 992px and up) */
-/*@media (min-width: @screen-md-min) {  }
-
-/* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) {
-
-.navbar{
-          font-size:250%;}
-
-
-
-
-
-@media (min-width: 2000px) {
-
-      .navbar{
-          font-size:250%;
-      }
-                
-.about_beeing-about p{
-    max-width: 100%;
-    height: auto;
-    padding: 8%;
-    font-size:400%;
-}
-     .footer{
-      font-size:40px;
-      }
-          
-      }
-
-@media screen and (max-width:768px)
-.navbar{
-          font-size:50%;
-      }
-
-      .jumbotron-about.text-center {
-        margin-top:10px;
-        padding:20px;
-        font-size:5px;
-      }
-
-     .footer{
-      font-size:20px;
-      }
-          
-      }
-
-
-
-}*/
 
 
