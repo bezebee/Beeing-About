@@ -26,6 +26,7 @@ aria-expanded="false" aria-label="Toggle navigation">
 <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
 <li class="nav-item mr-2"><a class="nav-link" href="services.html">Services</a></li>
 <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+
 </ul>
 </div>
 </nav>
@@ -34,44 +35,103 @@ aria-expanded="false" aria-label="Toggle navigation">
 
 <!--Contact form-->
 
+<div class="container" style="padding-top:50px">
+<div class="box">
+<div class="row">
+<div class="col-lg-12">
+<hr>
+<h2 class="intro-text text-center">Contact</h2>
+<hr>
+<form>
+<div class="row">
+<div class="form-group col-lg-4">
+<label>Name</label>
+<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name here" required/>
 
+</div>
 
-<section class="contact-us text-center">
-<form class="contact-form" action="https://www.facebook.com/" method="post">
-<h2 class="question">Request a call-back</h2>
-<label for="fname">First Name</label>
-<input class="text-input" type="text" id="fname" name="first_name" required/>
+<div class="form-group col-lg-4">
+<label>Phone Number</label>
+<input type="phone" class="form-control" id="phone" name="phone_number" placeholder= "Enter your email address here" required/>
+</div>
 
-<label for="lname">Last Name</label>
-<input class="text-input" type="text" id="lname" name="last_name" required/>
+<div class="form-group col-lg-4">
+<label>Email Address</label>
+<input type="email" class="form-control" id="email" name="email" placeholder="Enter your phone number here" required/>
 
-<label for="email">Email Address</label>
-<input class="text-input" type="email" id="email" name="email-address" required/>
+</div>
+<div class="col-lg-12">
+<hr>
+<h5 class="intro-text text-center">What service are you interested in?</h5><hr>
+</div>
 
-<label for="phone">Phone Number</label>
-<input class="text-input" type="phone" id="phone" name="phone_number" required/>
-
-<br><br>
-<p>What are you interested in?</p><br>
-
-<label for="HolCam">Holiday Camera</label>
+<div class="form-group col-lg-3">
+<label for="HolCam">Holiday Videographer</label>
 <input type="radio" name="service" id="HolCam" value="HolCam" required/>
+</div>
 
+<div class="form-group col-lg-3">
+<label for="HolPho">Holiday Photographer</label>
+<input type="radio" name="service" id="HolPho" value="HolPho" required/>
+</div>
+
+<div class="form-group col-lg-3">
 <label for="HolPlan">Holiday Plan</label>
 <input type="radio" name="service" id="HolPlan" value="HolPlan" required/>
+</div>
 
+<div class="form-group col-lg-3">
 <label for="Edit">Video Edit</label>
 <input type="radio" name="service" id="Edit" value="Edit" required/>
+</div>
 
+<div class="form-group col-lg-3">
 <label for="Custom">Custom</label>
-<input type="radio" name="service" id="Custom" value="Custom" required/><br><br>
+<input type="radio" name="service" id="Custom" value="Custom" required/>
+</div>
+
+<div class="form-group col-lg-12">
+<label  style="padding-top:4%">Message (optional)</label>
+<textarea class="form-control" rows="7" placeholder="Give us some more details on what you have in mind"></textarea>
+
+</div>
+<div class="form-group col-lg-12">
+<button type="button" class="btn btn-success btn-lg">Submit</button>
+</div>
+
+</div>
+
+<div class="box">
+<div class="row">
+<div class="col-lg-12">
+<hr>
+<h2 class="intro-text text-center">Contact details</h2><hr>
+</div>
+
+<div class="col-md-8"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.25333588192!2d
+-6.385785668716212!3d53.32444313798125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A
+0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1585498091461!5m2!1sen!2sie" 
+width="100%" height="400" frameborder="0" style="border:0;" 
+allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+<div class="col-md-4 text-center text-md-left p-2">
+<p>Phone: (+353) 876615969</p>
+<p>Email: <a href="mailto:beeing.about@gmail.com">beeing.about@gmail.com</a></p>
+<p>Address: Dublin, Ireland</p></div>
 
 
-
-<input class="join-button" type="submit" value="Call me with a Quote"/>
+</div>
+</div>
 </form>
-</section>
-<!--Test-->
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
 
 
 <!--Footer-->
@@ -79,7 +139,7 @@ aria-expanded="false" aria-label="Toggle navigation">
 
 <footer class="footer">
 <div class="row">
-<!--Responsive footer code from FreeCodeCamp-->
+<!--Footer -->
 <div class="col-md-12 text-center">
 <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
   <a href="https://www.facebook.com/beezeebee/" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-facebook-square"></i></button></a>
