@@ -216,6 +216,8 @@ border:solid 1.5px #abe68f;;
 
     .navbar{
           font-size:100%;
+         float:none;
+          display:inline-block;
     }
 
     .about_beeing-about p {
@@ -230,7 +232,7 @@ body{
     padding-top:150px;
 }
       .navbar{
-          font-size:250%;
+          font-size:170%;
       }
       .nav-link{
           padding-left:10px;
@@ -243,7 +245,7 @@ body{
     font-size:250%;
     }
     .brand-font{
-        font-size:250%!important;
+        font-size:170%!important;
     }
 }
 
