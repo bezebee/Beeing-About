@@ -87,7 +87,12 @@ button.navbar-toggler.ml-auto{
     padding-top:45px;
 }
 
-
+.heading-line{
+    width:50%;
+    margin:auto;
+    padding-top:1%;
+    margin-top:1%;
+}
 
 .short-line{
     width:50%;
@@ -95,6 +100,7 @@ button.navbar-toggler.ml-auto{
     padding-bottom:5%;
     margin-top:5%;
 }
+
 .circle-cover-bg{
     width:auto;
     text-align:center;
