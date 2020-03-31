@@ -2,7 +2,6 @@
 #### Live website *https://bezebee.github.io/Beeing-About/*
 
 
-![](css/assets/Responsive.PNG)<br>
 
 
 
