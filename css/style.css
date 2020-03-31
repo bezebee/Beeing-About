@@ -1,258 +1,264 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
-
-
-body{
-  font-family:'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
+body {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
-html,body
-{
-    width: 100%;
-    min-height: 100vh;
-    margin:0;
-    overflow-x: hidden; 
+html,
+body {
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	overflow-x: hidden;
 }
 
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
+
+
 /*Hiding scrollbar visibility as it's affecting smoothness of the collapsible elements*/
+
 ::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
-.active>.nav-link{
-text-shadow: 1px 2px 5px #abe68f;
+.active>.nav-link {
+	text-shadow: 1px 2px 5px #abe68f;
 }
 
-.navbar-brand:hover{
-    text-shadow: 1px 2px 5px #abe68f;
+.navbar-brand:hover {
+	text-shadow: 1px 2px 5px #abe68f;
 }
+
 
 /*Decorative font to match logo on videos*/
+
 .brand-font {
-font-family: p22-hopper-edward, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:110%;
+	font-family: p22-hopper-edward, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 110%;
 }
 
-.about_beeing-about p{
-    max-width: 100%;
-    height: auto;
-    padding: 8%;   
+.about_beeing-about p {
+    
+	max-width: 100%;
+	height: auto;
+	padding: 8%;
 }
+
 
 /*Navbar styling*/
 
 .navalert-container {
-    position:sticky;
-    top:0;
-    left:0;
-    padding-left:0;
-    padding-right:0;
-    max-height:80px;
-    z-index:1;
+	position: sticky;
+	top: 0;
+	left: 0;
+	padding-left: 0;
+	padding-right: 0;
+	max-height: 80px;
+	z-index: 1;
 }
 
-.navbar{
-    margin-bottom:0;
-    border:0;
-    width:100%;
-    display:flex;
-    box-sizing: border-box;
-    z-index:1;
+.navbar {
+    
+	margin-bottom: 0;
+	border: 0;
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	z-index: 1;
 }
 
 .bg-light {
-    background-color: #ffffff!important;
-
+	background-color: #ffffff!important;
 }
 
-.navbar-brand{
-font-family: p22-hopper-edward, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size:300%;
+.navbar-brand {
+	font-family: p22-hopper-edward, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 300%;
 }
 
-
-button.navbar-toggler.ml-auto{
-    margin-right:8px;
+button.navbar-toggler.ml-auto {
+	margin-right: 8px;
 }
 
-.row{
-    padding-top:45px;
+.row {
+	padding-top: 45px;
 }
 
-.heading-line{
-    width:50%;
-    margin:auto;
-    padding-top:1%;
-    margin-top:1%;
+.heading-line {
+	width: 50%;
+	margin: auto;
+	padding-top: 1%;
+	margin-top: 1%;
 }
 
-.short-line{
-    width:50%;
-    margin:auto;
-    padding-bottom:5%;
-    margin-top:5%;
+.short-line {
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5%;
+	margin-top: 5%;
 }
 
-.circle-cover-bg{
-    width:auto;
-    text-align:center;
-    padding:20px;    
+.circle-cover-bg {
+	width: auto;
+	text-align: center;
+	padding: 20px;
 }
 
-img { 
-width: 200px; 
-height: 200px; 
-border-radius:50%;
- }
-
-.what-our-clients-say,p {
-    padding-left:4%;
-    padding-right:4%;
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
-a:hover, a:focus { text-decoration: none;}
+
+.what-our-clients-say,
+p {
+	padding-left: 4%;
+	padding-right: 4%;
+    font-size:15px;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
 button.btn.btn-link {
-    text-decoration:none;
-    color: #444546;
-    }
-.footer{
-    position:absolute;
-    width:100%;
-    z-index:-9999;
-    margin-right:auto;
-    margin-left:auto;
+	text-decoration: none;
+	color: #444546;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	z-index: -9999;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .copyright {
-    margin-top:16px;
-    margin-right:0px;  
+	margin-top: 16px;
+	margin-right: 0px;
 }
 
-button.btn.btn-secondary{
-    background:rgba(65, 62, 62,0.8);
-    margin:20px;
-    
+button.btn.btn-secondary {
+	background: rgba(65, 62, 62, 0.8);
+	margin: 20px;
 }
 
 
 /*Gallery*/
 
-
-iframe{
-  width:100%;
-  padding-top:10px;
-  padding-right:0; 
+iframe {
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 0;
 }
-
 
 
 /*Decorative font styling of the Travel Plan button*/
 
-.btn-block{
-    white-space: normal;
+.btn-block {
+	white-space: normal;
 }
 
 button.btn.btn-outline-success.brand-font {
-    padding:0;
-    
+	padding: 0;
 }
 
-.btn{
-    margin-top:1%;
+.btn {
+	margin-top: 1%;
 }
 
 
 /*Services accordeon*/
 
-.card-header{
-
-    height: auto;
-    margin-top:0;
+.card-header {
+	height: auto;
+	margin-top: 0;
 }
-
 
 
 /*Pseudo button created to accompany collapsible element*/
-.price{
-    border:1px solid rgba(254, 255, 251);
-    color:#ffffff;
-    margin:2px;
-    padding:3px;
-    border-radius:4px;
-    
-    
+
+.price {
+	border: 1px solid rgba(254, 255, 251);
+	color: #ffffff;
+	margin: 2px;
+	padding: 3px;
+	border-radius: 4px;
 }
 
+
 /*Highlight effect added onto the pseudo-button*/
-.price:hover{
-    background-color:rgba(254, 255, 251);
-    color:rgba(65, 62, 62);
-    box-shadow: 1px 2px 5px rgba(254, 255, 251);
-    
+
+.price:hover {
+	background-color: rgba(254, 255, 251);
+	color: rgba(65, 62, 62);
+	box-shadow: 1px 2px 5px rgba(254, 255, 251);
 }
+
+
 /*Background for collapsible heading made more visible*/
-button.btn.btn-link{    
-background-color:rgba(65, 62, 62, 0.7);
-  margin-top:10px;
-  color:#ffffff;
- 
+
+button.btn.btn-link {
+	background-color: rgba(65, 62, 62, 0.7);
+	margin-top: 10px;
+	color: #ffffff;
 }
 
 
 /*Highlighting the text boxes*/
-.form-control:hover{
-border:solid 1.5px #abe68f;;
-}
-/*Minor animation on hover over the submit button*/
-.btn:hover{
-   
-    box-shadow: 2px 2px 5px #3b3b3b;
-    border-radius:4px;
+
+.form-control:hover {
+	border: solid 1.5px #abe68f;
+	;
 }
 
+
+/*Minor animation on hover over the submit button*/
+
+.btn:hover {
+	box-shadow: 2px 2px 5px #3b3b3b;
+	border-radius: 4px;
+}
 
 @media (min-width: 1400px) {
-
-    .navbar{
-          font-size:100%;
-         
-    }
-
-    .about_beeing-about p {
-    max-width: 100%;
-    height: auto;
-    padding: 15%;
-    font-size:130%;
-    }
+	.navbar {
+		font-size: 100%;
+	}
+	.about_beeing-about p {
+		max-width: 100%;
+		height: auto;
+		padding: 15%;
+		font-size: 130%;
+	}
 }
+
 @media (min-width: 2000px) {
-body{
-    padding-top:150px;
+	body {
+		padding-top: 150px;
+	}
+	.navbar {
+		font-size: 170%;
+	}
+	.nav-link {
+		padding-left: 10px;
+	}
+	.about_beeing-about p {
+		max-width: 100%;
+		height: auto;
+		padding: 15%;
+		font-size: 250%;
+	}
+	.brand-font {
+		font-size: 170%!important;
+	}
 }
-      .navbar{
-          font-size:170%;
-      }
-      .nav-link{
-          padding-left:10px;
-      }
-
-      .about_beeing-about p {
-    max-width: 100%;
-    height: auto;
-    padding: 15%;
-    font-size:250%;
-    }
-    .brand-font{
-        font-size:170%!important;
-    }
-}
-
-
-
