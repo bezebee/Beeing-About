@@ -1,3 +1,6 @@
+![](css/assets/Responsive.PNG)
+
+
 # Beeing About
 #### Live website *https://bezebee.github.io/Beeing-About/*
 
