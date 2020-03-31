@@ -52,6 +52,8 @@ body {
 }
 
 
+
+
 /*Navbar styling*/
 
 .navalert-container {
@@ -111,19 +113,21 @@ button.navbar-toggler.ml-auto {
 	width: auto;
 	text-align: center;
 	padding: 20px;
+    
 }
 
 img {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+    box-shadow: 1px 5px 8px;
 }
 
 .what-our-clients-say,
 p {
 	padding-left: 4%;
 	padding-right: 4%;
-    font-size:15px;
+    font-size:17px;
 }
 
 a:hover,
@@ -214,13 +218,19 @@ button.btn.btn-link {
 	margin-top: 10px;
 	color: #ffffff;
 }
+/*Contact form font formatting*/
+
+.container{
+    font-size:17px;
+}
+
 
 
 /*Highlighting the text boxes*/
 
 .form-control:hover {
 	border: solid 1.5px #abe68f;
-	;
+	
 }
 
 
@@ -231,15 +241,16 @@ button.btn.btn-link {
 	border-radius: 4px;
 }
 
-@media (min-width: 1400px) {
+
+@media (min-width: 700px) {
 	.navbar {
-		font-size: 30px;
+		font-size: 20px;
 	}
 	.about_beeing-about p {
 		max-width: 100%;
 		height: auto;
 		padding: 15%;
-		font-size: 130%;
+		font-size: 17px;;
 	}
 }
 
@@ -248,7 +259,7 @@ button.btn.btn-link {
 		padding-top: 150px;
 	}
 	.navbar {
-		font-size: 150%;
+		font-size: 120%;
 	}
 	.nav-link {
 		padding-left: 10px;
