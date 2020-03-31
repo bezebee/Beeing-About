@@ -140,3 +140,5 @@ Images of the clients have been obtained from Pexels.com
 ### Acknowledgements
 I really liked the idea of including an Iframe of a Google map in the Contact page, so I looked for inspiration on how this could be achieved in Bootstrap. In the process of research on how to put the Contact page together I came across this video: https://www.youtube.com/watch?v=9dL516qYL4w, in which Dinesh Varyani explains the basics of using Bootstrap to code a responsive Contact form.
 
+Also, throughout the project I have been relying on Bootstrap ability to keep the pages responsive, I found it very useful and timesaving
+
