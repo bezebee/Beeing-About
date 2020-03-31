@@ -1,9 +1,13 @@
+# Beeing About
+#### Live website *https://bezebee.github.io/Beeing-About/*
+
 
 ![](css/assets/Responsive.PNG)<br>
-Beeing About
-https://bezebee.github.io/Beeing-About/
 
-Beeing About is a company that offers media services to those who love to travel, especially to Ireland. There are four services Beeing About is undertaking mainly, these are: 
+
+
+# ABOUT
+##### Beeing About is a company that offers media services to those who love to travel, especially to Ireland. There are four services Beeing About is undertaking mainly, these are: 
 - Filming
 - Photography
 - Itinerary Design
@@ -37,7 +41,7 @@ Initially I was going to use the image as the background for container, but I ch
  
  
  
-# Features
+# FEATURES
 Beeing About site is a four page website following the usual concept.
 ### Home
 Landing page which introduces prospect clients to the company with a short intro explaining their ethos. As they scroll down, visitors can watch the video, which is designed to showcase the skills as well as invite them to the adventure. The opening quote by Seth Godin is meant to inspire those over-worked souls dreaming of something different.
@@ -49,7 +53,7 @@ There are four main services offered, which can be mixed and matched. Prices are
 ### Contact
 This part offers both, contacting the company directly via form, or just utilising provided details to either phone them or send a direct email. There is also a postal address available.
  
-# Technologies Used
+# TECHNOLOGIES USED
 ### Bootstrap
 This is a responsive, mobile first design, so Bootstrap has been of most help. Bootstrap ensures responsiveness as well as simplicity.
 ### HTML
@@ -64,8 +68,14 @@ An Integrated Development Environment (IDE) designed to provide platform for sof
 Very resource rich service offered by Google
 ### Adobe Fonts
 Resource used for the logo font
+### Minify Code
+http://minifycode.com/html-beautifier/
+Used for beautifying HTML code
+### FreeFormatter.com 
+https://www.freeformatter.com/css-beautifier.html
+Used for beautifying CSS code
 
-# Testing
+# TESTING
 The website is bright and transparent, easy to navigate.
 Each page has a heading to affirm the user which page they are currently on.
 - The Home page welcomes me with the outline of Beeing About service and an immediate Call To Action button which brings me to the Contact page. The video offers additional visuals as it is one of company's creation, as a prospect client I am imagining this could be me in that video, the uplifting message in the video further invites exploring of the offer. When I scroll further, some clients stories offer examples of services offered and clients feedback. 
@@ -119,9 +129,9 @@ Main tests conducted while the website was being designed were based on the Deve
 - Go to the Contact page
 - Try submitting the form with the incorrect email address, does it come back with error?
 - Try submitting the form with a required field left empty, does it come back with an error message?
-# Deployment
+# DEPLOYMENT
 Github Pages - The project was deployed very early in the design days and regularly checked while new features and styling was added on. 
-# Credits
+# CREDITS
 ### Media
 The videos on this site have been created entirely by Beeing About
 Images of the clients have been obtained from Pexels.com
