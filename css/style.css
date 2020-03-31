@@ -27,11 +27,15 @@ body {
 }
 
 .active>.nav-link {
-	text-shadow: 1px 2px 5px #abe68f;
+	text-shadow: 1px 2px 5px #a9e961;
+}
+
+.nav-link:hover{
+    text-shadow: 1px 2px 5px #a9e961;
 }
 
 .navbar-brand:hover {
-	text-shadow: 1px 2px 5px #abe68f;
+	text-shadow: 1px 2px 5px #a9e961;
 }
 
 
@@ -231,7 +235,7 @@ button.btn.btn-link {
 /*Highlighting the text boxes*/
 
 .form-control:hover {
-	border: solid 1.5px #abe68f;
+	border: solid 1.5px #a9e961;
 	
 }
 
