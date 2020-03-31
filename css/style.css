@@ -2,6 +2,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    
 }
 
 html,
@@ -232,7 +233,7 @@ button.btn.btn-link {
 
 @media (min-width: 1400px) {
 	.navbar {
-		font-size: 100%;
+		font-size: 30px;
 	}
 	.about_beeing-about p {
 		max-width: 100%;
@@ -247,7 +248,7 @@ button.btn.btn-link {
 		padding-top: 150px;
 	}
 	.navbar {
-		font-size: 170%;
+		font-size: 150%;
 	}
 	.nav-link {
 		padding-left: 10px;
