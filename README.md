@@ -135,9 +135,9 @@ Github Pages - The project was deployed very early in the design days and regula
 The videos on this site have been created entirely by Beeing About
 Images of the clients have been obtained from Pexels.com, edited with Pixlr Photo Editor (https://pixlr.com/)
 ### Acknowledgements
-I really liked the idea of including an Iframe of a Google map in the Contact page, so I looked for inspiration on how this could be achieved in Bootstrap. In the process of research on how to put the Contact page together I came across this video: https://www.youtube.com/watch?v=9dL516qYL4w, in which Dinesh Varyani explains the basics of using Bootstrap to code a responsive Contact form.
+I really liked the idea of including an Iframe of a Google map in the Contact page, so I looked for inspiration on how this could be achieved in Bootstrap. In the process of research on how to put the Contact page together I came across this video: https://www.youtube.com/watch?v=9dL516qYL4w, in which Dinesh Varyani explains the basics of using Bootstrap to code a responsive Contact form. I followed it and used some of his code as an inspiration to my own Contact page.
 
-Also, throughout the project I have been relying on Bootstrap ability to keep the pages responsive, I found it very useful and timesaving. I really wanted to use videos as the portfolio as it was fitting to the offer advertised by Beeing About, so needed to look into how to make them responsive on all screen sizes. Chapter [Embed]https://getbootstrap.com/docs/4.4/utilities/embed/ on Bootstrap was an absolute life saver for achieving this.
+Also, throughout the project I have been relying on Bootstrap ability to keep the pages responsive, I found it very useful and timesaving. I really wanted to use videos as the portfolio as it was fitting to the offer advertised by Beeing About, so needed to look into how to make them responsive on all screen sizes. Chapter ![Embed](https://getbootstrap.com/docs/4.4/utilities/embed/) on Bootstrap was an absolute life saver for achieving this.
 
 
 
