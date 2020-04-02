@@ -86,14 +86,12 @@ Each page has a heading to affirm the user which page they are currently on.
 - All except for Message fields in the Contact form are required. There are radio selectors, which offer more detailed information on what the prospect client is interested in. Although Message input is optional, it offers a further chance for the prospect to explain what attracts them in the company's offer.
 ### Browsers testing
 #### Chrome 
-All good. While building the site I have extensively utilised Chrome in the Developer mode, I found it extremely useful, especially that some modifications could be seen immediately after new values were applied. The contact form allows a submitting incorrectly formatted email address, need to look into that
+All good. While building the site I have extensively utilised Chrome in the Developer mode, I found it extremely useful, especially that some modifications could be seen immediately after new values were applied. 
 #### Mozilla Firefox 
-All as expected, except for the number field in the contact form. Arrows are showing for the numbers, so need to look into that. The contact form allows a submitting incorrectly formatted email address, need to look into that
-#### Internet Explorer 
-I am not a user of the Internet Explorer and I do not see the reason why anyone should still use it, but responsive is responsive. Explorer surprised me in a very positive way, my website displays perfectly, it’s responsive, Explorer is the only browser which will not let me submit the contact form with just kasia@gmail as my email address, so it recognises the error. Need to look into reasons why the first two do not. The only minor disappointment is the fact that I lost my pseudo button on each of the accordion tabs. 
+All as expected, except for the number field in the contact form. Arrows are showing for the numbers.
 #### Safari 
-### Responsive and displaying the website in order
-#### Mobile testing
+Responsive and displaying the website in order
+### Mobile testing
 Main tests conducted while the website was being designed were based on the Developer Mode, as main design rests on Bootstrap system, both vertical and horizontal set up are perfect. I also had an iPhone 7, Samsung S7 and Samsung S8 standing by to check out the actual performance and all returned perfect outcomes.T
 ### Features testing
 #### Request a Call Back button:
@@ -129,16 +127,17 @@ Main tests conducted while the website was being designed were based on the Deve
 - Does the pseudo button change from gray to white?
 #### Contact form:
 - Go to the Contact page
-- Try submitting the form with the incorrect email address, does it come back with error?
 - Try submitting the form with a required field left empty, does it come back with an error message?
 # DEPLOYMENT
 Github Pages - The project was deployed very early in the design days and regularly checked while new features and styling was added on. 
 # CREDITS
 ### Media
 The videos on this site have been created entirely by Beeing About
-Images of the clients have been obtained from Pexels.com
+Images of the clients have been obtained from Pexels.com, edited with Pixlr Photo Editor (https://pixlr.com/)
 ### Acknowledgements
 I really liked the idea of including an Iframe of a Google map in the Contact page, so I looked for inspiration on how this could be achieved in Bootstrap. In the process of research on how to put the Contact page together I came across this video: https://www.youtube.com/watch?v=9dL516qYL4w, in which Dinesh Varyani explains the basics of using Bootstrap to code a responsive Contact form.
 
-Also, throughout the project I have been relying on Bootstrap ability to keep the pages responsive, I found it very useful and timesaving
+Also, throughout the project I have been relying on Bootstrap ability to keep the pages responsive, I found it very useful and timesaving. I really wanted to use videos as the portfolio as it was fitting to the offer advertised by Beeing About, so needed to look into how to make them responsive on all screen sizes. Chapter [Embed]https://getbootstrap.com/docs/4.4/utilities/embed/ on Bootstrap was an absolute life saver for achieving this.
+
+
 
