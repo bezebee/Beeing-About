@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
 body {
 	font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 17px;
     
 }
 
@@ -249,7 +249,7 @@ button.btn.btn-link {
 
 
 @media (min-width: 700px) {
-	.navbar {
+	.navbar{
 		font-size: 20px;
 	}
 	.about_beeing-about p {
