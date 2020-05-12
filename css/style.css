@@ -157,10 +157,23 @@ button.btn.btn-link {
 	margin-right: 0px;
 }
 
-button.btn.btn-secondary {
-	background: rgba(65, 62, 62, 0.8);
+button.btn.btn-primary {
+	background: rgba( 59, 89, 153,1);
 	margin: 20px;
 }
+
+button.btn.btn-danger{
+    background: rgba(205,32,31,1);
+}
+
+button.btn.btn-dark, 
+button.btn.btn-primary, 
+button.btn.btn-danger, 
+button.btn.btn-warning {
+    margin:20px;
+}
+
+
 
 
 /*Gallery*/
