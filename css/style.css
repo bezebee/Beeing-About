@@ -132,6 +132,8 @@ p {
 	padding-left: 4%;
 	padding-right: 4%;
     font-size:17px;
+     text-align: justify;
+  text-justify: inter-word;
 }
 
 a:hover,
