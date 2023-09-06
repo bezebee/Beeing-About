@@ -1,4 +1,4 @@
-![](css/assets/Responsive.PNG)
+
 
 
 # Beeing About
